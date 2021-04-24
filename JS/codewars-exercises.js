@@ -14,4 +14,27 @@ function maskify(cc) {
     }
 }
 
+// function that takes in an array of numbers and converts it into a number format (xxx) xxx -xxxx
+function createPhoneNumber(phoneNumber){
+    phoneNumber= phoneNumber.join('');
+    return '(' + phoneNumber.substring(0,3) + ') '
+        + phoneNumber.substring(3, 6)
+        + '-'
+        + phoneNumber.substring(6);
+}
+
+function isPangram(string){
+    string = string.split("");
+    var arr = [string]
+    var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+    var capAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    var pun = "."
+    for (var i = 0; i < arr.length; i++){
+        if (arr.includes(alphabet) || arr.includes(capAlphabet) || arr.includes(pun)){
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
 
