@@ -39,5 +39,19 @@ function isPangram(string){
     }
 }
 
+// function to remove any elements in an array b that match array a
+
+function arrayDiff(a, b) {
+    var newArr = [];
+    for (var i = 0; i <= a.length; i++){
+        if (a[i] !== b[i]) {
+            newArr.push(a[i])
+        } else if (a.length === 0) {
+            newArr = [];
+        }
+    }
+    return newArr;
+}
+
 
 
