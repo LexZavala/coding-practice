@@ -23,6 +23,7 @@ function createPhoneNumber(phoneNumber){
         + phoneNumber.substring(6);
 }
 
+// function that checks if a string is a pangram i.e "The quick brown fox jumps over the lazy dog."
 function isPangram(string){
     string = string.split("");
     var arr = [string]
@@ -37,4 +38,6 @@ function isPangram(string){
         }
     }
 }
+
+
 
