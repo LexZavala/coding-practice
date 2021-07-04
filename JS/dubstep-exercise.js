@@ -18,5 +18,7 @@
 
 
 function songDecoder(song){
-    // ...
+
 }
+
+songDecoder("AWUBBWUBC")
