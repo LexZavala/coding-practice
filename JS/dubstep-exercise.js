@@ -17,3 +17,6 @@
 // // =>  WE ARE THE CHAMPIONS MY FRIEND
 
 
+function songDecoder(song){
+    // ...
+}
