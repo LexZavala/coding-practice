@@ -18,7 +18,9 @@
 
 
 function songDecoder(song){
-
+    var strNoWub = song.split("WUB");
+    newStr = strNoWub.join(" ");
+    console.log(newStr);
 }
 
-songDecoder("AWUBBWUBC")
+songDecoder("HELLOWUBMYWUBNAME")
