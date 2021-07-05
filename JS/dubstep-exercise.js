@@ -22,5 +22,4 @@ function songDecoder(song){
     newStr = strNoWub.join(" ");
     console.log(newStr);
 }
-
-songDecoder("HELLOWUBMYWUBNAME")
+songDecoder("HELLOWUBMYWUBNAME");
