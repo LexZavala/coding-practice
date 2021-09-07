@@ -17,7 +17,7 @@ function swapStrings( a, b){
 
 swapStrings(a,b);
 
-
+// correct solution
 function swapStrings(a, b) {
     for(var i = 0; i < a.length; i++) {
         const tempString = a[i];
